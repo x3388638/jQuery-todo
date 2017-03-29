@@ -1,0 +1,31 @@
+#app {
+	margin-top: 50px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 10px 0px;
+	min-height: 500px;
+}
+
+#app #taskContainer {
+	padding: 20px;
+}
+
+#app #taskContainer .taskItem {
+	margin-bottom: 10px;
+}
+
+#app #taskContainer .taskItem .card {
+	transition: all .2s;
+}
+
+#app #taskContainer .taskItem:hover .card {
+	background: #f3f3f3;
+}
+
+#app #taskContainer .taskItem .card .btn-delTask {
+	display: none;
+}
+
+#app #taskContainer .taskItem .card:hover .btn-delTask {
+	display: initial;
+}
